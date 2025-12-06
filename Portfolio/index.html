@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+        <div class="navbar-inner">
+            <div class="logo">Aditya<span>.</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="toggle-icon">☾</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+        <section id="home" class="hero section reveal">
+            <div class="hero-content">
+                <p class="hello">Hello, I'm</p>
+                <h1 class="hero-title">Aditya <span>Maddheshiya</span></h1>
+                <h2 class="hero-subtitle">
+                    I'm a <span class="typing" id="typing"></span>
+                    <span class="cursor" id="cursor">|</span>
+                </h2>
+                <p class="hero-text">
+                    Passionate <strong>Java & Web Developer</strong> focused on building clean, efficient, and user-friendly applications.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn outline-btn">Contact Me</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>1+</h3>
+                        <p>Years of coding</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Mini Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>∞</h3>
+                        <p>Learning Everyday</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="blob"></div>
+                <div class="profile-card floating">
+                    <!-- Replace this with your real image if you want -->
+                    <div class="avatar-circle">AM</div>
+                    <p class="role-tag">Java Developer</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section reveal">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Who I am and what I do</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an <strong>Information Technology</strong> student and Java developer who enjoys solving problems,
+                        building projects, and exploring new technologies like Spring Boot, REST APIs, and modern frontend tools.
+                    </p>
+                    <p>
+                        I love turning ideas into working software. My focus is on writing clean, readable code and building
+                        practical applications that actually help people.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="chip">Java • OOPs • DSA</div>
+                        <div class="chip">Spring Boot • REST API</div>
+                        <div class="chip">HTML • CSS • JS</div>
+                        <div class="chip">MySQL • Git & GitHub</div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <h3>What I’m Looking For</h3>
+                        <p>Internships, entry-level roles, and freelance projects where I can learn and contribute.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Current Focus</h3>
+                        <p>Building full-stack Java projects and improving problem-solving with DSA practice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section reveal">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <p>Tools and technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>C (Basics)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Thymeleaf</li>
+                        <li>Git & GitHub</li>
+                        <li>VS Code, IntelliJ IDEA</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Database & Other</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>REST API basics</li>
+                        <li>JSON / CSV</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section reveal">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>Some things I’ve built recently</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-badge">Java • Spring Boot</div>
+                    <h3>Online Test Platform</h3>
+                    <p>
+                        A web application for creating and managing tests with CSV-based question upload, user authentication,
+                        and result evaluation.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Spring Boot</li>
+                        <li>Thymeleaf</li>
+                        <li>MySQL</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="text-link">View Code (GitHub)</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-badge">HTML • CSS • JS</div>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A fully responsive portfolio website with smooth animations, theme toggle, and modern UI design.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Responsive</li>
+                        <li>Animations</li>
+                        <li>Clean UI</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="text-link">Live Demo</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-badge">Java</div>
+                    <h3>Java Utility Programs</h3>
+                    <p>
+                        Collection of Java programs for patterns, arrays, strings, and number problems to strengthen logic building.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Core Java</li>
+                        <li>OOPs</li>
+                        <li>DSA Basics</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="text-link">View Repository</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section reveal">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Let’s build something together</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>
+                        Feel free to reach out if you want to collaborate, have a project idea, or just want to say hi.
+                    </p>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> maddheshiyaaditya499@gmail.com</li>
+                        <li><strong>Location:</strong> India</li>
+                        <li><strong>GitHub:</strong> github.com/Adicode789</li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="you@example.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn full-width">
+                        Send Message
+                    </button>
+                    <p class="form-note">This is a demo form – you can connect it to a backend later.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Aditya Maddheshiya. All rights reserved.</p>
+    </footer>
+
+    <!-- LINK JS AT THE END SO ANIMATIONS WORK -->
+    <script src="script.js"></script>
+</body>
+</html>
