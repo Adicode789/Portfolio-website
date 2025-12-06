@@ -64,7 +64,7 @@ Copy code
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Adicode789/portfolio.git
 Open the project folder
 
 bash
